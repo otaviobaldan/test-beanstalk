@@ -20,7 +20,7 @@ func hello(c *gin.Context) {
 func user (c *gin.Context) {
 	err := database.Create(&User{
 		Username:  "test",
-		Email: "obaldan@hotmail.com",
+		Email: "test@hotmail.com",
 		UserRoleID: "admin",
 		Password: "1234",
 	}).Error
